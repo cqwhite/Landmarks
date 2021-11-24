@@ -10,11 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            VStack(alignment: .leading) {
-                Text("World Tree")
-                    .font(.title)
-            }
+        VStack(alignment: .leading) {
+            Text("World Tree")
+                .font(.title)
+            
             HStack{
             Text("One big tree")
                 .font(.subheadline)
@@ -27,6 +26,7 @@ struct ContentView: View {
             
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
