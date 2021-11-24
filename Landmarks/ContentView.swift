@@ -10,8 +10,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!!!!!")
-            .padding()
+        VStack {
+            VStack(alignment: .leading) {
+                Text("World Tree")
+                    .font(.title)
+            }
+            HStack{
+            Text("One big tree")
+                .font(.subheadline)
+            Spacer()
+            Text("Indiana")
+                .font(.subheadline)
+            }
+        }
+        .padding()
+            
     }
 }
 
